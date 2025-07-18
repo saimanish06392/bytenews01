@@ -1,0 +1,55 @@
+/* LOGOUT CONTAINER */
+.logout-container {
+  max-width: 600px;
+  margin: 120px auto;
+  padding: 50px 40px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #fff;
+  position: relative;
+  backdrop-filter: blur(12px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+/* HEADLINE */
+.logout-container h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* BUTTON-LIKE LOGOUT LINK */
+.logout-container a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 28px;
+  border-radius: 10px;
+  text-decoration: none;
+  background: linear-gradient(90deg, #a1c4fd, #c2e9fb);
+  color: #333;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.logout-container a:hover {
+  background: linear-gradient(90deg, #fbc2eb, #a6c1ee);
+  transform: scale(1.05);
+  color: #000;
+}
+
+/* BACKGROUND EFFECT */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
