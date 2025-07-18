@@ -1,0 +1,46 @@
+/* CARD TITLE */
+.card-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+  transition: transform 0.3s ease;
+}
+
+.card-title:hover {
+  transform: scale(1.05);
+}
+
+/* CARD TEXT */
+.card-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #f0f0f0;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px 15px;
+  border-radius: 10px;
+  backdrop-filter: blur(6px);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* BUTTON ACTIVE STATE */
+.btn.active {
+  background: linear-gradient(135deg, #00f2fe, #4facfe);
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.6), 0 0 30px rgba(0, 123, 255, 0.3);
+  transition: all 0.3s ease;
+  transform: scale(1.03);
+}
+
+.btn.active:hover {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  box-shadow: 0 0 25px rgba(102, 126, 234, 0.6), 0 0 40px rgba(118, 75, 162, 0.4);
+  transform: scale(1.07);
+}
